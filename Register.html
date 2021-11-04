@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="STYLESHEET" href="CSS/estilos.css"></link>
+    <link rel="STYLESHEET" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="STYLESHEET" href="CSS/bootstrap.min.css">
+    <script src="validar.js"></script>
+    <title>Trabajo practico Obligatorio</title>
+</head>
+
+<header>
+<h1>New world <i class="fas fa-globe-americas"></i></h1>
+    <nav>
+        <ul class="enlaces-menu">
+            <li><a class= "link" href=index.html>Home</a></li> 
+            <li><a class= "link" href=ProyectosBlockchain.html>Proyectos Blockchain</a></li> 
+            <li><a class= "link" href=NFTs.html>NFTs</a></li> 
+            <li><a class= "link" href=index.html>Inicio Sesión</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<body>
+    <form name="form">
+        <div class="form-group">
+            <label for="exampleInputFname">Nombre</label>
+            <input type="text" class="form-control" id="nombre" aria-describedby="nombre" placeholder="Enter first name">
+        </div>
+
+        <div class="form-group">
+          <label for="exampleINputLname">Apellido</label>
+          <input type="text" class="form-control" id="apellido" aria-describedby="apellido" placeholder="Enter last name">
+        </div>
+
+        <div class="form-group">
+          <label for="date">email</label>
+          <input type="text" class="form-control" id="email" aria-describedby="email" placeholder="Enter your email">
+        </div>
+
+        <div class="form-group">
+          <label for="date">telepono</label>
+          <input type="number" class="form-control" id="telefono" aria-describedby="telepono" placeholder="Enter your phone">
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="password1" placeholder="Password">
+        </div>
+        
+        <div class="form-group">
+          <label for="exampleInputPassword1">Confirmar Password</label>
+          <input type="password" class="form-control" id="password2" placeholder="Password">
+        </div>
+      <input type="submit" class="btn btn-primary" onclick="return validarFormulario();" value = "Enviar">
+  </form>
+</body>
+
+
+
+<footer class="text-center text-white" style="background-color: #f1f1f1;">
+  <!-- Grid container -->
+  <div class="container pt-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.facebook.com/"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.twitter.com/"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.google.com/"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.instagram.com/"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.linkedin.com/"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://github.com/"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    Fabricio Giribone - © 2020 Copyright:
+    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+</html>
